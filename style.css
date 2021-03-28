@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #111;
+}
+ul{
+    list-style: none;
+}
+/* ko`p ishlatiladigan classlar */
+
+.container{
+    width: 75%;
+    margin: auto;
+}
+
+.text-primary{
+    color:rgb(17, 82, 221);
+}
+
+.text-white{
+    color: white;
+}
+
+.btn{
+    padding: 15px 70px;
+}
+.btn-primary{
+    border: 3px solid rgb(17, 82, 221) ;
+}
+
+.btn-primary:hover{
+    background:  rgb(17, 82, 221);
+    color:white;
+}
+
+.head{
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.lead{
+    font-size: 18px;
+    color: #999;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.clr{
+    clear: both;
+}
+
+/* navbar */
+.navbar{
+    background:  rgb(17, 82, 221);
+    overflow: auto;
+    padding: 10px 10px;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    float: left;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.nav{
+    float: right;
+}
+.nav li{
+    float: left;
+    padding: 10px 15px;
+}
+.nav li a{
+    color: white;
+}
+
+.showcase{
+    background: url("./img/img/home-banner-bg.png") no-repeat center /cover;
+    overflow: auto;
+    overflow-y:hidden;
+    height: 500px;
+}
+.showcase-text{
+    float: left;
+    width: 50%;
+    position: relative;
+    left: 80px;
+}
+.showcase-text h1{
+    padding: 60px 0;
+}
+.showcase p {
+   padding-bottom: 40px;
+}
+.showcase-img{
+    float: right;
+    width: 50%;
+}
+
+/* services */
+.services-text{
+    text-align: center;
+}
+.services-text h5{
+    font-size: 22px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.services-boxes{
+    padding: 40px 0;
+
+}
+.box{
+    float: left;
+    width: 33%;
+    padding: 20px;
+}
+.portfolio{
+    padding: 60px 10px;
+    padding-left: 30px;
+}
+.portfolio-text{
+    float: left;
+    width: 45%;
+
+}
+.portfolio-img{
+    float: left;
+    width: 25%;
+    padding-right: 10px;
+}
+.portfolio-img img{
+    width: 300px;
+}
+
+.team{
+    padding: 60px 0;
+}
+.team-img{
+    background: url("./img/img/team1.jpg") no-repeat center /cover;
+    float: left;
+    width: 30%;
+    height: 500px;
+    position: relative;
+    padding:30px 40px;
+    left: 60px;
+}
+.team-text{
+    float: right;
+    width: 50%;
+}
+.bg-white{
+    background: white;
+    position: absolute;
+    bottom: 40px;
+    padding: 30px;
+    margin-right: 50px;
+}
+
+.bg-blue{
+    background: rgb(6, 143, 235);
+    overflow: auto;
+    
+}
+
+.bg-blue-text{
+    float: left;
+    width: 40%;
+    padding: 30px 70px;
+}
+.bg-blue-text p{
+    font-size: 20px;
+}
+.bg-blue-img{
+    float: right;;
+    width: 60%;
+}
+.bg-blue-img img{
+    height: 400px;
+    position: relative;
+    left: 450px;
+}
+
+.blog{
+    padding: 50px 60px;
+}
+.blog-text p{
+font-size: 25px;
+}
+.blog-text{
+    float: left;
+    width: 40%;
+}
+.blog-btn{
+float: right;
+width: 30%;
+padding-top:250px;
+}
+
+.dd{
+    float: left;
+    width: 30%;
+    border:grey solid;
+    margin: 6px;
+}
+.d1{
+    margin-left: 60px;
+}
+
+.dd img{
+    width: 100%;
+}
+.d1-text {
+    padding: 20px 20px;
+}
+
+.d2-text {
+    padding: 20px 20px;
+}
+
+.d3-text {
+    padding: 20px 20px;
+}
+
+.black{
+    overflow: auto;
+    background-color: black;
+    padding: 50px;
+}
+
+.black-boxes{
+    float: left;
+    width: 25%;
+}
+
+.ul1{
+    display: inline-block;
+    padding-right: 60px;
+}
+
+.b3 input{
+    padding: 15px;
+    background: black;
+    color: white;
+
+}
+
+.b3 button{
+    background: rgb(0, 119, 255);
+    padding: 13px;
+    position: relative;
+    right: 65px;
+    
+}
+
+.b4{
+    padding-right: 50px;
+}
+
+.footer-icon{
+    margin-top: 20px;
+}
+
+.footer-icon a{
+color: #fff;
+padding: 20px;
+}
+
+.footer-icon a i{
+    font-size: 50px;
+    color: red;
+}
+
+
+
+/* showcase-contact */
+
+.contact-showcase{
+    background: url("./img/img/common-banner.png") no-repeat center /cover;
+    height: 400px;
+}
+
+.contact-text{
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+.map{
+    padding:40px 0;
+}
+
+.contact-form{
+    padding: 50px;
+}
+.contact-address{
+    float: left;
+    width:30% ;
+
+}
+
+.contact-address li{
+    padding: 20px;
+}
+.contact-address li i{
+    margin-right: 5px;
+}
+.contact-input{
+    float: left;
+    width:35% ;
+
+}
+
+.contact-input input{
+display: block;
+margin: 15px 0;
+padding: 10px;
+width: 80%;
+}
+.contact-submit{
+    float: left;
+    width:35% ;
+}
+
+.contact-submit textarea{
+    padding: 20px;
+}
+.contact-submit a{
+    position: relative;
+    left: 100px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.war-img1{
+    margin-left: 490px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+}
+.war-img2{
+    margin-bottom: 80px;
+}
+
+
+.img-qism-img{
+    float: left;
+    padding-left: 450px;
+    padding-bottom: 30px;
+}
+
+.img-qism-text{
+    float: left;
+    padding-bottom: 30px;
+}
+
+
+.showcase-pr-text{
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+
+
+
+.project-body-img{
+    float: left;
+    width: 45%;
+    padding: 30px 80px;
+    
+}
+
+.project-body-text{
+    float: right;
+    width: 45%;
+    padding:30px 80px;
+}
